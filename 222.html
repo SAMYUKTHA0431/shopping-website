@@ -1,0 +1,361 @@
+<html>
+<head>
+<title>Online Shopping</title>
+<link rel="stylesheet" href="style.css">
+<style>
+button:hover{
+    background-color: lightblue;
+    color: green;
+}
+
+#cart{
+    background-color:lightcyan;
+    border:2px dotted black;
+}
+.title{
+    color:blue;
+}
+img:hover{
+    border:2px solid black;
+}
+</style>
+</head>
+<body background="aa.jpg">
+<h1 align="center"  class="title">   <font size="10">ONLINE SHOPPY!</font></h1>
+<hr>
+<h2 align="center">LIST OF PRODUCTS</h2>
+<hr>
+<h3 align="center" class="mee">
+<p>Stay home, buy more</p>
+<p>Less stress, buy dress</p>
+</h3>
+<hr>
+<img src="a1.jpg" usemap="#dressmap" width="1300" height="500">
+<map name="dressmap">
+  <area shape="rect" coords="20,20,355,480" href="#stat" alt="Stationary Collections">
+  <area shape="rect" coords="395,20,730,480" href="#bag" alt="Bag Collections">
+  <area shape="rect" coords="770,20,1105,480" href="#home" alt="Home Collections">
+  <area shape="rect" coords="1145,20,1480,480" href="#mobile" alt="Mobile Collections">
+</map>
+<hr>
+<h2 id="stat" align="center">STATIONARY COLLECTIONS</h2>
+<table border="2" cellpadding="10" width=100% class=#product >
+<tr align="center" width=100%>
+<td>
+<b>PEN<br><br>
+<img src="s 1.jpg" width="150" height="180"  id="s 1" draggable="true"
+     ondragstart="drag(event)"><br>
+₹99<br>
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio><br>
+<video width="100"  autoplay muted  controls>
+<source src="v2.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>BOOK<br><br>
+<img src="s2.jpg" width="150" height="180"  id="s2" draggable="true"
+     ondragstart="drag(event)"><br>
+books<br>
+₹250
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v2.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>COLOUR PEN<br><br>
+<img src="s3.jpg" width="150" height="180"  id="s3" draggable="true"
+     ondragstart="drag(event)"><br>
+₹110
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v2.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PAINT<br><br>
+<img src="s4.jpg" width="150" height="180"  id="s4" draggable="true"
+     ondragstart="drag(event)"><br>
+₹100
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>	
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v2.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+</table>
+<br><br>
+<h2 id="bag" align="center">BAG COLLECTIONS</h2>
+<table border="2" cellpadding="10" width=100%>
+<tr align="center" width=100%>
+<td>
+<b>TOTE BAG<br><br>
+<img src="b1.jpg" width="150" height="180"  id="b1" draggable="true"
+     ondragstart="drag(event)"><br>
+₹999
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PAPER BAG<br><br>
+<img src="b2.jpg" width="150" height="180"  id="b2" draggable="true"
+     ondragstart="drag(event)"><br>
+
+₹899
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>WHITE BAG<br><br>
+<img src="b3.jpg" width="150" height="180"  id="b3" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1099
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PLASTIC BAG<br><br>
+<img src="b4.jpg" width="150" height="180" id="b4" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1299
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+</table>
+<br><br>
+<h2 id="home" align="center">HOME COLLECTIONS</h2>
+<table border="2" cellpadding="10" width=100%>
+<tr align="center" width=100%>
+<td>
+<b>AIR FRIER<br><br>
+<img src="h1.jpg" width="150" height="180" id="h1" draggable="true"
+     ondragstart="drag(event)"><br>
+₹2499
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v4.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>IRON<br><br>
+<img src="h2.jpg" width="150" height="180" id="h2" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1499
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v4.mp4" type="video/mp4">
+</video>
+</td>
+
+<td>
+<b>GRINDER<br><br>
+<img src="h3.jpg" width="150" height="180" id="h3" draggable="true"
+     ondragstart="drag(event)"><br>
+₹2999
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v4.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>AC<br><br>
+<img src="h4.jpg" width="150" height="180" id="h4" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1999
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v4.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+</table>
+<br><br>
+<br><br>
+<h2 id="mobile" align="center">MOBILE COLLECTIONS</h2>
+<table border="2" cellpadding="10" width=100%>
+<tr align="center" width=100%>
+<td>
+<b>CAMERA<br><br>
+<img src="i 1.jpg" width="150" height="180"  id="i 1" draggable="true"
+     ondragstart="drag(event)"><br>
+₹999
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PHONE<br><br>
+<img src="i 2.jpg" width="150" height="180"  id="i 2" draggable="true"
+     ondragstart="drag(event)"><br>
+
+₹899
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PHONE COVER<br><br>
+<img src="i 3.jpg" width="150" height="180"  id="i 3" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1099
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+<td>
+<b>PHONE HOLDER<br><br>
+<img src="i 4.jpg" width="150" height="180" id="i 4" draggable="true"
+     ondragstart="drag(event)"><br>
+₹1299
+<audio controls>
+<source src="Nallaru Po.mp3" type="audio/mpeg">
+</audio>
+<br>
+<video width="100"  autoplay muted  controls>
+<source src="v3.mp4" type="video/mp4">
+</video>
+</td>
+</tr>
+</table>
+<br><br>
+<h2 align="center">CART</h2>
+<div id="cart" ondrop="drop(event)" ondragover="allowDrop(event)" style="width:928px; height:350px; border:2px dotted black; margin: 0 auto;">
+    <h2 align="center" >Drop Product Here</h2>
+</div>
+    <script>
+function allowDrop(ev)
+{
+    ev.preventDefault();
+}
+
+function drag(ev)
+{
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+function drop(ev)
+{
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    var original = document.getElementById(data);
+    var copy = original.cloneNode(true);
+    copy.id = data + "_" + Date.now();
+    copy.draggable = false;
+    copy.style.width = "120px";
+    copy.style.margin = "10px";
+    document.getElementById("cart").appendChild(copy);
+}
+</script>
+<br>
+<br>
+
+
+<br>
+<h2 align="center"style="color:red;">ORDER FORM</h2>
+<center>
+<br>
+<form>
+Full Name:<br>
+<input type="text" size="40"><br><br>
+Email:<br>
+<input type="email" size="40"><br><br>
+Phone:<br>
+<input type="text" size="40"><br><br>
+Address:<br>
+<textarea rows="4" cols="40"></textarea><br><br>
+Payment Method:<br>
+<br>
+<select>
+<option>Cash on Delivery</option>
+<option>UPI</option>
+<option>Debit Card</option>
+<option>Credit Card</option>
+</select>
+<br><br>
+<input type="submit" value="PLACE ORDER">
+</form>
+</td>
+</tr>
+</table>
+<br>
+<script>
+function getLocation()
+{
+    if(navigator.geolocation)
+    {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else
+    {
+        document.getElementById("location").innerHTML="Geolocation is not supported.";
+    }
+}
+function showPosition(position)
+{
+    document.getElementById("location").innerHTML=
+    "<b>Latitude:</b> "+position.coords.latitude+
+    "<br><b>Longitude:</b> "+position.coords.longitude;
+}
+</script>
+<center>
+<h2>Find Your Location</h2>
+<button onclick="getLocation()">Get Location</button>
+<p id="location"></p>
+</center>
+</body>
+</html>
